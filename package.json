@@ -4,7 +4,8 @@
   "description": "tailwind card",
   "main": "index.js",
   "scripts": {
-    "build": "tailwind -i ./input.css -o ./css/styles.css",
+    "build": "tailwind build --output public",
+    "generate": "tailwind -i ./input.css -o ./css/styles.css",
     "watch": "tailwind -i ./input.css -o ./css/styles.css --watch"
   },
   "keywords": [
