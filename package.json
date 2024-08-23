@@ -1,0 +1,19 @@
+{
+  "name": "social-links-profile-main",
+  "version": "1.0.0",
+  "description": "tailwind card",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./input.css -o ./css/styles.css",
+    "watch": "tailwind -i ./input.css -o ./css/styles.css --watch"
+  },
+  "keywords": [
+    "tailwind",
+    "css"
+  ],
+  "author": "Andres Burbano",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
